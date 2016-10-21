@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-fanzone",
+  "version": "0.0.1",
+  "description": "Shared Fanzone lint configurations",
+  "main": "index.js",
+  "parser": "babel-eslint",
+  "dependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">= 7",
+    "eslint": ">= 3",
+    "eslint-config-airbnb-base": ">= 9",
+    "eslint-plugin-import": ">= 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:cloudforartists/fz-lint-config.git"
+  },
+  "keywords": [
+    "fanzone",
+    "eslint",
+    "lint"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^7.0.0"
+  }
+}
